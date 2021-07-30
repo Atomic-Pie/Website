@@ -1,0 +1,157 @@
+:root {
+  --body_W: 100vw;
+  --body_H: 100vh;
+  --test_W: 10vw;
+  --test_H: 10vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: var(--body_H);
+    width: var(--body_W);
+    overflow: hidden;
+    background-image: url(pie_background.png);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid;
+    border-width: .1vh;
+}
+
+
+.navbar {
+    border-top: solid .1vh rgba(24, 21, 24, 0.8);
+    padding:0;
+    margin: 0;
+    background-color: rgba(40,129,197, 0.8);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+  }
+
+.Tabs {
+  border-bottom: solid .1vh rgba(24, 21, 24, 0.8);
+  padding:0;
+  margin: 0;
+  background-color: rgba(103, 151, 25, 0.8);
+  width: 100%;
+  height: 5.5vh;
+}
+
+.TopNavbar {
+  border-bottom: solid .1vh rgba(24, 21, 24, 0.8);
+  padding:0;
+  margin: 0;
+  background-color: rgba(103, 151, 25, 0.8);
+  width: 100%;
+  height: 5vh;
+  padding-bottom: 1vh;
+}
+
+.Bookmarks {
+  border-bottom: solid .1vh rgba(24, 21, 24, 0.8);
+  padding:0;
+  margin: 0;
+  background-color: rgba(103, 151, 25, 0.8);
+  width: 100%;
+  height: 3.5vh;
+  padding-bottom: 1vh;
+}
+
+#logo {
+    padding-left: 2vh;
+    padding-right:2vh;
+    padding-bottom: .75vh;
+    margin-bottom: 3vh;
+    height: 5vh;
+    text-align: left;
+    width: auto;
+    cursor: pointer;
+    display: block;
+}
+
+.dropdown-menu{
+    min-height: 87.5vh;
+}
+
+.dropbtn {
+    border: none;
+    background: none;
+}
+
+.dropbtn {
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  border: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 8.8vh;
+  background-color: #f1f1f1;
+  width: 30vw;
+  height: 90.5vh;
+  z-index: 100;
+}
+
+.dropup-content a {
+  width: 65%;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {
+  background-color: #ddd
+}
+
+.dropup:hover .dropbtn {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+}
+
+.show {display:block;}
+
+#chrome {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+}
+
+#chrome_btn {
+  width: 5vh;
+  height: 5vh;
+}
+
+#gay {
+  background-color: aqua;
+  width: var(--test_W);
+  height: var(--test_H);
+}
+
+#chrome_nav {
+  background-color: aqua;
+  width: 100vw;
+  height: 13.5vh;
+}
+
+.focused {
+  position:absolute;
+  z-index: 90;
+}
+
+.iframe {
+  height: 100%;
+  width: 100%;
+  
+}
