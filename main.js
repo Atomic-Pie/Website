@@ -58,7 +58,7 @@ function open_chrome(){
 }
 
 function close_chrome(){
-  console.log(parent)
+  parent.getElementById("chrome").closeIframe
 
 }
 
